@@ -58,8 +58,8 @@ export default {
       return html
     },
     wrapTable(html) {
-      html = html.replace(/<table/g, `<div class="table-wrapper"><table`)
-      html = html.replace(/<\/table>/g, `</table></div>"`)
+      html = html.replace(/<table/g, '<div class="table-wrapper"><table')
+      html = html.replace(/<\/table>/g, '</table></div>"')
       return html
     }
   }

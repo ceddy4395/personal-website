@@ -50,7 +50,7 @@ export default {
     }
   },
   created() {
-    this.$eventBus.$on(`modal-triggered`, (id) => {
+    this.$eventBus.$on('modal-triggered', (id) => {
       if (id === this.id) this.active = true
     })
   },
