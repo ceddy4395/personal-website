@@ -21,7 +21,7 @@
 export default {
   head() {
     return {
-      title: `C.V. | ${this.$siteConfig.siteName}`
+      title: 'C.V. | ${this.$siteConfig.siteName}'
     }
   }
 }
