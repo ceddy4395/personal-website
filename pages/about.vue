@@ -103,13 +103,13 @@
     </main-section>
   </div>
 </template>
-<script>
-export default {
-  components: { QuoteCard },
-  head() {
-    return {
-      title: `About | ${this.$siteConfig.siteName}`
-    }
-  }
-}
-</script>
+<!--<script>-->
+<!--export default {-->
+<!--  components: { QuoteCard },-->
+<!--  head() {-->
+<!--    return {-->
+<!--      title: `About | ${this.$siteConfig.siteName}`-->
+<!--    }-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
