@@ -27,28 +27,20 @@ export const getByNumberMixin = {
       this.reset()
     }
     this.gottenPage++
-    try {
-      const resources = await this.getByPage(this.gottenPage)
-      const filtered = resources.filter(filter)
-      let numbered = chunk(filtered, number)[0]
-      numbered = numbered ? flattenResource(numbered) : []
-      numbered = flattenResource(numbered)
-      if (numbered.length < number) {
-        try {
-          const more = await this.getByNumber(
-            number - numbered.length,
-            filter,
-            false
-          )
-          numbered = numbered.concat(more)
-        } catch (err) {
-          return numbered
-        }
-      }
-      return numbered
-    } catch (err) {
-      throw err
+    const resources = await this.getByPage(this.gottenPage)
+    const filtered = resources.filter(filter)
+    let numbered = chunk(filtered, number)[0]
+    numbered = numbered ? flattenResource(numbered) : []
+    numbered = flattenResource(numbered)
+    if (numbered.length < number) {
+      const more = await this.getByNumber(
+        number - numbered.length,
+        filter,
+        false
+      )
+      numbered = numbered.concat(more)
     }
+    return numbered
   }
 }
 
@@ -64,15 +56,11 @@ export const getByPageMixin = {
         return resource
       }
     }
-    try {
-      let categories = await this.axios.$get(
-        `api/${this.slugPlural}/page-${page}.json`
-      )
-      categories = flattenResource(categories)
-      return categories.filter(filter)
-    } catch (err) {
-      throw err
-    }
+    let categories = await this.axios.$get(
+      `api/${this.slugPlural}/page-${page}.json`
+    )
+    categories = flattenResource(categories)
+    return categories.filter(filter)
   },
   reset() {
     this.gottenPage = 0

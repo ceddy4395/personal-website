@@ -1,44 +1,41 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About Us"
-      subtitle="Example About Page"
+      title="About Me"
+      subtitle="Sailor for life..."
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Sailor</h3>
           <p>
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              A sailor in heart and soul. Every hour spent on the water is an
+              hour spent learning and getting beter!
             </strong>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            I'm a 21 year old student living in Delft, The Netherlands. I'm
+            currently studying computer science and engineering at the TU Delft.
+            Outside of my study hours you will always be able to find me on the
+            water. Sailing is my
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>Learning never stops</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            The reason behind my passion for sailing is that learning never
+            stops. Every hour I spent on the water is always about improving,
+            being able to go that 1% faster around the race course.
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
+          <h3>Past experiences</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            I started sailing at the age of 7, in the optimist at a local club
+            in Belgium. From there, I was quickly asked to join the national
+            team and the sailing became more and more competitive. Since then I
+            have never looked back and the boats have only started to get bigger
+            and faster. Right now I'm mainly sailing keelboats ranging from 20
+            ft sport boats to full on VO65 ocean racers.
           </p>
         </div>
 
@@ -46,36 +43,48 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Cool Stuff We Do
+                Team Red Herring
               </p>
               <p class="subtitle">
-                Sooo Cool
+                J111
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/red-herring.jpg').src"
+                  :srcset="require('~/assets/uploads/red-herring.jpg').srcSet"
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Other Cool Things
+                Karma Sailing team
               </p>
               <p class="subtitle">
-                Just as cool
+                Agile 42
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/karma-sailing-team.jpg').src"
+                  :src-set="
+                    require('~/assets/uploads/karma-sailing-team.jpg').srcSet
+                  "
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                All the cool
+                Team Homanit
               </p>
               <p class="subtitle">
-                that is all
+                Melges 32
               </p>
               <figure class="image is-1by1">
                 <opti-image width="500" height="500" />
@@ -95,13 +104,12 @@
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
 export default {
+  components: { QuoteCard },
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
 }
 </script>
