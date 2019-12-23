@@ -17,3 +17,12 @@
     </main-section>
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: `C.V. | ${this.$siteConfig.siteName}`
+    }
+  }
+}
+</script>
