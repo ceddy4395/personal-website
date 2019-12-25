@@ -40,45 +40,105 @@
         </div>
 
         <div class="tile is-ancestor">
-          <div class="tile is-parent">
+          <div class="tile is-horizontal">
+            <div class="tile is-parent is-4">
+              <article class="tile is-child box">
+                <a href="https://www.facebook.com/J111RedHerring/">
+                  <p class="title">
+                    Team Red Herring
+                  </p>
+                  <p class="subtitle">
+                    J111 - NED 9111
+                  </p>
+                  <figure class="image is-1by1">
+                    <opti-image
+                      width="500"
+                      height="500"
+                      :src="require('~/assets/uploads/red-herring.jpg').src"
+                      :srcset="
+                        require('~/assets/uploads/red-herring.jpg').srcSet
+                      "
+                    />
+                  </figure>
+                </a>
+              </article>
+            </div>
+
+            <div class="tile is-parent is-4">
+              <article class="tile is-child box">
+                <a href="https://www.facebook.com/karmasailingteam/">
+                  <p class="title">
+                    Karma Sailing team
+                  </p>
+                  <p class="subtitle">
+                    Agile 42 - NED 8999
+                  </p>
+                  <figure class="image is-1by1">
+                    <opti-image
+                      width="500"
+                      height="500"
+                      :src="
+                        require('~/assets/uploads/karma-sailing-team.jpg').src
+                      "
+                      :src-set="
+                        require('~/assets/uploads/karma-sailing-team.jpg')
+                          .srcSet
+                      "
+                    />
+                  </figure>
+                </a>
+              </article>
+            </div>
+            <div class="tile is-parent is-4">
+              <article class="tile is-child box">
+                <a href="https://www.facebook.com/NED1514Broach">
+                  <p class="title">
+                    Team De Jeugd
+                  </p>
+                  <p class="subtitle">
+                    J22 - NED 1514
+                  </p>
+                  <figure class="image is-1by1">
+                    <opti-image
+                      width="500"
+                      height="500"
+                      :src="
+                        require('~/assets/uploads/J22-team-de-jeugd.jpg').src
+                      "
+                      :src-set="
+                        require('~/assets/uploads/J22-team-de-jeugd.jpg').srcSet
+                      "
+                    />
+                  </figure>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent is-4">
             <article class="tile is-child box">
-              <p class="title">
-                Team Red Herring
-              </p>
-              <p class="subtitle">
-                J111
-              </p>
-              <figure class="image is-1by1">
-                <opti-image
-                  width="500"
-                  height="500"
-                  :src="require('~/assets/uploads/red-herring.jpg').src"
-                  :srcset="require('~/assets/uploads/red-herring.jpg').srcSet"
-                />
-              </figure>
+              <a href="https://www.facebook.com/NED1514J22/">
+                <p class="title">
+                  Team Duckies
+                </p>
+                <p class="subtitle">
+                  J22 - NED 1514
+                </p>
+                <figure class="image is-1by1">
+                  <opti-image
+                    width="500"
+                    height="500"
+                    :src="require('~/assets/uploads/J22-team-de-jeugd.jpg').src"
+                    :src-set="
+                      require('~/assets/uploads/J22-team-de-jeugd.jpg').srcSet
+                    "
+                  />
+                </figure>
+              </a>
             </article>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Karma Sailing team
-              </p>
-              <p class="subtitle">
-                Agile 42
-              </p>
-              <figure class="image is-1by1">
-                <opti-image
-                  width="500"
-                  height="500"
-                  :src="require('~/assets/uploads/karma-sailing-team.jpg').src"
-                  :src-set="
-                    require('~/assets/uploads/karma-sailing-team.jpg').srcSet
-                  "
-                />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
+          <div class="tile is-parent is-4">
             <article class="tile is-child box">
               <p class="title">
                 Team Homanit

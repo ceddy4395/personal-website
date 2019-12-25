@@ -3,8 +3,13 @@
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
     Rights Reserved
     <br />
-    Made with <span style="color: #e25555;">&#9829;</span> with Nuxt.js and
-    Netlify
+    <a
+      href="https://www.facebook.com/cedricwillekens.1"
+      class="fa fa-facebook"
+    />
+    <a href="https://www.instagram.com/ceddy4395" class="fa fa-instagram" />
+    <!--    Made with <span style="color: #e25555;">&#9829;</span> with Nuxt.js and-->
+    <!--    Netlify-->
   </footer>
 </template>
 

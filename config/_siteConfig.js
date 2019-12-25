@@ -27,12 +27,12 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
       name: 'C.V.',
       link: '/cv'
+    },
+    {
+      name: 'Partners & Sponsors',
+      link: '/partners'
     }
   ],
   hero: {
@@ -53,14 +53,14 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
@@ -78,7 +78,7 @@ export default {
 
   // Categories
   categories: {
-    on: true,
+    on: false,
     perPage: 6,
     imageDimensions: null, // See card.imageDimensions (can be unique for categories if set here)
     theme: null // See card.theme (can be unique for categories if set here)
