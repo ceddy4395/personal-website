@@ -129,9 +129,9 @@
                   <opti-image
                     width="500"
                     height="500"
-                    :src="require('~/assets/uploads/J22-team-de-jeugd.jpg').src"
+                    :src="require('~/assets/uploads/j22-team-duckies.jpg').src"
                     :src-set="
-                      require('~/assets/uploads/J22-team-de-jeugd.jpg').srcSet
+                      require('~/assets/uploads/j22-team-duckies.jpg').srcSet
                     "
                   />
                 </figure>
