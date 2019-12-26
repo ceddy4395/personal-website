@@ -3,7 +3,7 @@
     <site-hero
       title="Partners & Sponsors"
       subtitle=""
-      image="/uploads/cv-hero.jpg"
+      image="/uploads/contact-hero-2.jpg"
     />
     <main-section theme="sidebar-right">
       <template v-slot:default>
