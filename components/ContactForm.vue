@@ -1,10 +1,10 @@
 <template>
-  <form>
+  <form name="contact" netlify>
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input class="input is-medium" type="text" placeholder="Firstname Lastname" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
