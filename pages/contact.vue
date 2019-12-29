@@ -32,7 +32,9 @@
                   </strong>
                 </p>
                 <p>
-                  If you have any questions/comments feel free to contact me through the contact form. I'm always happy to get in touch for new sailing opportunities and will reply asap.
+                  If you have any questions/comments feel free to contact me
+                  through the contact form. I'm always happy to get in touch for
+                  new sailing opportunities and will reply asap.
                 </p>
               </div>
             </article>

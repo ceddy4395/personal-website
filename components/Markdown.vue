@@ -17,12 +17,16 @@ export default {
     content() {
       const md = new MarkdownIt({
         linkify: true,
-        typographer: true
+        typographer: true,
+        html: true
       })
         .use(require('markdown-it-deflist'))
         .use(require('markdown-it-sub'))
         .use(require('markdown-it-sup'))
         .use(require('markdown-it-footnote'))
+        .use(require('markdown-it-video'), {
+          youtube: { height: 1080, width: 1920 }
+        })
       let html = md.render(this.markdown)
 
       html = this.useResponsiveImages(html)
