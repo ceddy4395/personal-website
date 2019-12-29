@@ -53,8 +53,6 @@ export default {
       'slug'
     ]),
     date() {
-      console.log(new Date(this.$store.state.date).getMonth())
-
       return getFormattedDate(this.$store.state.date)
     },
     url() {
