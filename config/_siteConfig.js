@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Cedric Willekens',
-  tagline: 'Sailor in ...',
+  tagline: 'Sailor in heart and soul',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -61,8 +61,8 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: false,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    // heading: 'Subscribe to Our Newsletter',
+    // btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
@@ -78,7 +78,7 @@ export default {
 
   // Categories
   categories: {
-    on: false,
+    on: true,
     perPage: 6,
     imageDimensions: null, // See card.imageDimensions (can be unique for categories if set here)
     theme: null // See card.theme (can be unique for categories if set here)

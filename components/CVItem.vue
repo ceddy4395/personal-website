@@ -34,3 +34,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+.level {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+</style>

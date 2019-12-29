@@ -60,4 +60,8 @@ export default {
 iframe {
   padding: 5px 2px;
 }
+.subtitle {
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
 </style>

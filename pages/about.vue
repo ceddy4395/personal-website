@@ -19,12 +19,13 @@
             I'm a 21 year old student living in Delft, The Netherlands. I'm
             currently studying computer science and engineering at the TU Delft.
             Outside of my study hours you will always be able to find me on the
-            water. Sailing is my
+            water. Sailing is my passion, I've been doing it since the age of 7
+            and would not like to do anything else.
           </p>
 
           <h3>Learning never stops</h3>
           <p>
-            The reason behind my passion for sailing is that learning never
+            My passion for sailing comes from the fact that learning never
             stops. Every hour I spent on the water is always about improving,
             being able to go that 1% faster around the race course.
           </p>
@@ -138,19 +139,19 @@
               </a>
             </article>
           </div>
-          <div class="tile is-parent is-4">
-            <article class="tile is-child box">
-              <p class="title">
-                Team Homanit
-              </p>
-              <p class="subtitle">
-                Melges 32
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
+          <!--          <div class="tile is-parent is-4">-->
+          <!--            <article class="tile is-child box">-->
+          <!--              <p class="title">-->
+          <!--                Team Homanit-->
+          <!--              </p>-->
+          <!--              <p class="subtitle">-->
+          <!--                Melges 32-->
+          <!--              </p>-->
+          <!--              <figure class="image is-1by1">-->
+          <!--                <opti-image width="500" height="500" />-->
+          <!--              </figure>-->
+          <!--            </article>-->
+          <!--          </div>-->
         </div>
       </template>
 
