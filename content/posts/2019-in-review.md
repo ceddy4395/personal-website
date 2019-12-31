@@ -4,7 +4,7 @@ subtitle: A year of ups and downs and big, bigger, biggest.
 author: Cedric Willekens
 category:
     - Sailing
-date: December 1 2019 13:00
+date: December 31 2019 13:00
 featureImage: /uploads/2019-in-review/hero.jpg
 ---
 *It has been a year full of ups and downs and on a whole variety of boats, ranging from the 6.5m long J22 to the 20+m 
