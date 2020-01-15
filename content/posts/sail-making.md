@@ -46,9 +46,10 @@ apply the double-sided tape and the new sailcloth very precisely is a must for a
 was most certainly a good practice for these skills and I'm starting to get more confident to do sail repairs in the future.       
 Have a look at the main & jib I've made, I cut the pieces by hand (causing for a lot of inaccuracies compared to modern methods of creating panels) 
 and then taped them on trying to be as accurate as possible to follow the curves of the panels.  
+<br></br>
 <img src="/uploads/sail-making/sail1.jpeg" float="center" width="200px"></img> 
 <br></br>
-<br></br>
+
 
 ## 3. Appreciation for the skill of the sail-makers 
 Although most of the sails are now designed and cut by software, the actual gluing and sticking of the sails is still 
