@@ -16,6 +16,7 @@
         :key="`${x}-r`"
         :src="`/logo-frames/logo-f${frames - x}.svg`"
       />
+      <!--      <img :src="`/logo-frames/logo-new.jpg`" />-->
     </div>
   </div>
 </template>
